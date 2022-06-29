@@ -1,4 +1,4 @@
-package com.ksnk.test
+package com.ksnk.test.utils
 
 class Contains {
     companion object

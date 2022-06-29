@@ -1,4 +1,4 @@
-package com.ksnk.test
+package com.ksnk.test.ui.testFragment
 
 
 import android.app.Notification
@@ -19,6 +19,9 @@ import android.widget.RemoteViews
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.fragment.app.Fragment
+import com.ksnk.test.utils.Contains
+import com.ksnk.test.R
+import com.ksnk.test.ui.main.MainActivity
 
 
 class TestFragment : Fragment() {

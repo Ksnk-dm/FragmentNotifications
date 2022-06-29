@@ -1,5 +1,6 @@
-package com.ksnk.test
+package com.ksnk.test.data
 
+import com.ksnk.test.ui.testFragment.TestFragment
 import io.realm.kotlin.types.RealmObject
 
 class FragmentEntity(var id: Int, var testFragment: TestFragment) : RealmObject {

@@ -1,4 +1,4 @@
-package com.ksnk.test
+package com.ksnk.test.ui.main
 
 
 import android.app.NotificationManager
@@ -10,6 +10,10 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.ksnk.test.data.FragmentEntity
+import com.ksnk.test.R
+import com.ksnk.test.ui.testFragment.TestFragment
+import com.ksnk.test.ui.main.adapter.ViewPagerAdapter
 import io.realm.kotlin.Realm
 import io.realm.kotlin.RealmConfiguration
 import io.realm.kotlin.ext.query
