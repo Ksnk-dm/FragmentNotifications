@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="notification_title">Chat heads active</string>
+    <string name="notification_mes">Messanger</string>
+    <string name="create_notification">Create new notification</string>
+</resources>
