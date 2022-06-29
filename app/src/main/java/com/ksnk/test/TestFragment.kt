@@ -47,6 +47,7 @@ class TestFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         notId = requireArguments().getInt(Contains().argumentId)
         buttonNotification = view.findViewById(R.id.notButton)
+        buttonNotification?.transformationMethod=null
         notificationManager =
             activity?.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         buttonNotification?.setOnClickListener {

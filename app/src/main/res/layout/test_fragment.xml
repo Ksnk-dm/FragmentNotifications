@@ -16,6 +16,8 @@
             android:layout_height="166dp"
             android:background="@drawable/ellipse_1"
             android:elevation="15dp"
+            android:textSize="20sp"
+            android:textAllCaps="false"
             android:text="@string/create_notification"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
